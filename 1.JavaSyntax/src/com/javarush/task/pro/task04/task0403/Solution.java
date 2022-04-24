@@ -10,18 +10,15 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int sum = 0;
-        boolean isEnter = false;
-        while(!isEnter){
+        boolean isEnter;
+        while(true){
             String string = scan.nextLine();
             isEnter = string.equals("ENTER");
             if(isEnter){
                 break;
             }
-           
-            sum = sum + Integer.parseInt(string);
-            
+            sum += Integer.parseInt(string);
         }
-       
-            System.out.println(sum);
+        System.out.println(sum);
     }
 }
