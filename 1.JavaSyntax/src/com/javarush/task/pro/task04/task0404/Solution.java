@@ -1,7 +1,7 @@
 package com.javarush.task.pro.task04.task0404;
 
 /*
-Заполненный прямоугольник             
+Заполненный прямоугольник
 */
 
 public class Solution {
