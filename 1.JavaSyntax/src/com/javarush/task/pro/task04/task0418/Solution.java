@@ -11,10 +11,9 @@ public class Solution {
         double glass = 0.5;
         Scanner scan = new Scanner(System.in);
         boolean i = scan.nextBoolean();
-        if (true){
-            System.out.println(Math.floor(glass));
-       // } else {
-             //       System.out.println((int) Math.ceil(glass));
-        }
+
+            System.out.println(i==true ? (int)Math.ceil(glass)
+                    : (int)Math.floor(glass));
+
     }
 }
